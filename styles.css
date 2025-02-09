@@ -170,4 +170,8 @@ footer a:hover {
     padding: 14px 60px;
     margin: 14px 0px;
   }
+  #projects h2 {
+     text-align: center;
+     margin: 10px 0px;
+  }
 }
