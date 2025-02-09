@@ -68,8 +68,11 @@ nav a:hover {
   font-size: 32px;
 }
 .hero .pfp img {
-  max-width: 450px;
   border-radius: 20px;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+
 }
 .skills {
   margin: 20px 0px;
