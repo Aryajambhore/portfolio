@@ -2,7 +2,7 @@
 
 Personal portfolio site for Arya Jambhore, a Bachelor of Information Technology student at Charles Darwin University focusing on data analytics and machine learning.
 
-Built with **React**, **Vite** and **GSAP**.
+Live at **[aryajambhore.dev](https://aryajambhore.dev)**. Built with **React**, **Vite** and **GSAP**.
 
 ## Run locally
 
