@@ -23,38 +23,47 @@ export const skills = [
   },
   {
     group: "Tools",
-    items: ["Jupyter Notebook", "Streamlit", "Git", "GitHub", "React"],
+    items: ["Jupyter Notebook", "Streamlit", "React", "Express", "PostgreSQL", "Git"],
   },
 ];
 
 // Replace `link` with each project's repo or live demo URL.
 export const projects = [
   {
-    title: "Digit Recognizer App",
+    title: "Darwin SmartGrow",
+    tag: "Full-stack · IoT",
+    visual: "smartgrow",
+    description:
+      "An IoT monitoring dashboard for a community-garden irrigation pilot in Darwin. Tracks soil moisture, temperature, humidity and tank level across four irrigation zones, with water-use analytics, alerts and fail-safe manual controls. Runs on a realistic sensor simulation or live PostgreSQL data through an Express REST API.",
+    stack: ["React", "Tailwind CSS", "Recharts", "Express", "PostgreSQL"],
+    link: "https://github.com/Aryajambhore/SmartGrow",
+  },
+  {
+    title: "Handwritten Digit Recognizer",
     tag: "Machine Learning",
     visual: "digits",
     description:
-      "An interactive app where you draw a digit on a canvas and a trained machine-learning model predicts which number it is.",
-    stack: ["Python", "Streamlit", "NumPy"],
-    link: "https://github.com/Aryajambhore",
+      "Draw a digit in the browser and a model trained on MNIST predicts it live, with a confidence score and probability chart. The drawing is preprocessed MNIST-style (cropped, scaled and centred by mass) and classified by a neural network (~98% accuracy) or logistic regression (~92%).",
+    stack: ["Python", "Streamlit", "scikit-learn", "OpenCV"],
+    link: "https://github.com/Aryajambhore/digit-classifier",
   },
   {
-    title: "Titanic Survival Predictor",
-    tag: "Classification",
-    visual: "titanic",
+    title: "Fake News Detector",
+    tag: "NLP",
+    visual: "fakenews",
     description:
-      "A classification model built with scikit-learn that predicts passenger survival from features like class, age, sex and fare.",
-    stack: ["Python", "Pandas", "scikit-learn"],
-    link: "https://github.com/Aryajambhore",
+      "An NLP model that classifies news articles as real or fake. Text is turned into TF-IDF features and classified with a Passive Aggressive Classifier, reaching 99.5% accuracy on the Kaggle Fake and Real News dataset.",
+    stack: ["Python", "scikit-learn", "TF-IDF", "Jupyter"],
+    link: "https://github.com/Aryajambhore/Fake-News-detector",
   },
   {
     title: "Linear Regression from Scratch",
     tag: "Fundamentals",
     visual: "regression",
     description:
-      "Linear regression implemented without ML libraries, covering gradient descent, model training and prediction step by step.",
+      "Predicts used-car selling prices from the CarDekho dataset with linear regression written without ML libraries: hand-coded gradient descent, feature scaling, categorical encoding and MSE loss.",
     stack: ["Python", "NumPy", "Pandas", "Matplotlib"],
-    link: "https://github.com/Aryajambhore",
+    link: "https://github.com/Aryajambhore/Linear-regression-from-scratch",
   },
 ];
 
